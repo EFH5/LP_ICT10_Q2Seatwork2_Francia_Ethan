@@ -19,9 +19,10 @@ def calculate_grade(e):
 
     final_grade = avg
 
-    display(f"Science: {grade1}, English: {grade2}, ICT: {grade3}, Math: {grade4}, Filipino: {grade5}, PE: {grade6}", target="output")
-    display(f"Full Name: {full_Name}", target="full_Name")
+    display(f"Science: {grade1}<br>English: {grade2}<br>ICT: {grade3}<br>Math: {grade4}<br>Filipino: {grade5}<br>PE: {grade6}", target="output")   
+    display(f"For: {full_Name}", target="full_Name")
     display(f"Your General Weighted Average is: {final_grade:.2f}", target="final_grade")
+
 
 
 
